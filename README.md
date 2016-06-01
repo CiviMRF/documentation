@@ -6,7 +6,7 @@ There is a lot of options available to integrate CiviCRM when runnin on the *sam
 
 The CRMF project set out facilitate the setup of an interactive, individual *and* secure interaction with your constituents using CiviCRM.
 
-The project was started in May 2016 by Erik Hommels and Björn Endres.
+The project was started in May 2016 by Erik Hommel (erik.hommel/civicoop.org) and Björn Endres (endres/systopia.de). We're happy for any kind of support.
 
 ## Why "CiviMcRestFace"?
 
@@ -17,7 +17,7 @@ This is a ***working title***, and we're happy for any suggestions - ideally wit
 ## Scenario
 
 The following depicts a typical setup:
-![Basic scenario](images/scenario.png =600x)
+<img src="images/scenario.png" width="600">
 
 
 ## Structure
@@ -27,5 +27,5 @@ The heart of the project is the ``CMRF_Core``, where the basic infrastructure is
 Linking individual functions or features of the host system (e.g. Webforms, payment systems, etc.) to the core is the the job of the ``CMRF_Connector`` projects. They register with a local core and ultimately connect CiviCRM with the host system, and *translate* between the two.
 
 Here's a class diagram draft:
-![Basic scenario](images/classes.png =600x)
+<img src="images/classes.png" width="600">
 
