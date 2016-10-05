@@ -1,6 +1,6 @@
 # CMRF Project
 
-This project aims at providing an infrastructure for the data exchange between a public facing website with a CiviCRM system. 
+CMRF is the CiviCRM Modular Remote-Access Framework. The project aims at providing an infrastructure for the data exchange between a public facing website with a CiviCRM system. 
 
 There is a lot of options available to integrate CiviCRM when runnin on the *same* server (e.g. Drupal Webforms integration), but we believe that in many cases CiviCRM shouldn't be run on a publicly accessible webserver - there are some serious concerns about data protection.
 
@@ -8,11 +8,10 @@ The CRMF project set out facilitate the setup of an interactive, individual *and
 
 The project was started in May 2016 by Erik Hommel (erik.hommel/civicoop.org) and Björn Endres (endres/systopia.de). We're happy for any kind of support.
 
-## Why "CiviMcRestFace"?
+## Why the crude acronym?
 
-The catchy name is based on the [Boaty McBoatface incident](http://www.theguardian.com/environment/2016/apr/17/boaty-mcboatface-wins-poll-to-name-polar-research-vessel), and it reflects the ideas of public participation and naming issues. At the same time it contains the important key words of the project: **Civi**CRM connection to a public **fac**ing website via its **REST** API.
+The acronym CMRF was based on the working title "Civi McRest Face" (after the [Boaty McBoatface incident](http://www.theguardian.com/environment/2016/apr/17/boaty-mcboatface-wins-poll-to-name-polar-research-vessel)) We meant to emphasise public participation, and at the same time it contained the important key words of the project: **Civi**CRM connection to a public **fac**ing website via its **REST** API.
 
-This is a ***working title***, and we're happy for any suggestions - ideally with the same acronym (CMRF).
 
 ## Scenario
 
