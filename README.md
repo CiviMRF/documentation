@@ -4,7 +4,7 @@ CMRF is the CiviCRM Modular Remote-Access Framework. The project aims at providi
 
 There is a lot of options available to integrate CiviCRM when running on the *same* server (e.g. Drupal Webforms integration), but we believe that in many cases, CiviCRM should not be run on a publicly accessible webserver e.g.
 1. When there are some serious concerns about data protection. A CRM system is often a trove of confidential information and is therefore probably better off safely hidden behind the firewall.
-1. A public-facing website has to perform some tasks for many users. A CRM provides a lot of functionality, just for a few. This results in very different upgrade needs. The public nature of a website demands upgrading fast, and the limited functionality makes testing feasible. Upgrading a CiviCRM is a time-consuming job because a lot of complex workflows must be checked, so it makes sense to minimise the number of upgrades. Separating the public website from CiviCRM makes it possible to cater for both upgrade needs.
+1. A public-facing website has to perform some tasks for many users. A CRM provides a lot of functionality, just for a few. This results in very different upgrade needs. The public nature of a website demands upgrading fast, and the limited functionality makes testing feasible. Upgrading CiviCRM is a time-consuming job because a lot of complex workflows must be checked, so it makes sense to minimise the number of upgrades. Separating the public website from CiviCRM makes it possible to cater for both upgrade needs.
 1. Organisations can have more public websites that target different audiences but have to collect information in one CiviCRM instance.
 
 
